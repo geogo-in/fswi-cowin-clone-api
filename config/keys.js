@@ -1,0 +1,8 @@
+// Hold application secret and configurations
+// module.exports = {	
+// 	mongoURI: process.env.MONGO_CONNECT
+// };
+
+module.exports = {	
+	mongoURI: "mongodb://localhost:27017/fswi-cowin-clone",
+};
