@@ -1,5 +1,3 @@
-const req = require('express/lib/request');
-
 const districtsController = require('../controllers/districtsController');
 
 module.exports = (app) => {

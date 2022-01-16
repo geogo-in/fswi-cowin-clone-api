@@ -25,7 +25,8 @@ app.use(bodyParser.urlencoded({ extended: true }));
 // app.use(multer())
 
 // Add all routes
-require('./src/routes/cityRoutes')(app);
+require('./src/routes/stateRoutes')(app);
+require('./src/routes/districtRoutes')(app);
 require('./src/routes/vaccinationCenterRoutes')(app);
 
 // Setup Server

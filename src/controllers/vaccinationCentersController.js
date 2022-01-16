@@ -23,7 +23,7 @@ exports.create = function(req, res, next) {
         const vaccinationCenter = new VaccinationCenter({
           district: district,
           name: req.body.name,
-          pincode: req.body.description,
+          pincode: req.body.pincode,
           address: req.body.address,
           isActive: req.body.isActive
         })
