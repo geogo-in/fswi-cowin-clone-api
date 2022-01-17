@@ -8,8 +8,8 @@ Hey, let's make this repo all much rich as possible by contributing more endpoin
 - [x] Create new State
 - [x] View State details
 - [x] List all State Districts
-- [ ] Update City
-- [ ] Delete a City
+- [ ] Update State
+- [ ] Delete a State
 
 ### District
 States have multiple districts
